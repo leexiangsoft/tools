@@ -14,8 +14,8 @@ $mail->Password = 'xx';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('xiang.li@shandjj.com', '系统邮件');
-$mail->addAddress('1176650810@qq.com', 'Joe User');     // Add a recipient
+$mail->setFrom('xiang@a.com', '系统邮件');
+$mail->addAddress('1176@qq.com', 'Joe User');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
