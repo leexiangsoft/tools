@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 require 'PHPMailer/class.phpmailer.php';
 require 'PHPMailer/class.phpmaileroauth.php';
 require 'PHPMailer/class.smtp.php';
@@ -9,8 +9,8 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.exmail.qq.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'xiang.li@shandjj.com';                 // SMTP username
-$mail->Password = 'LEExiang0901';                           // SMTP password
+$mail->Username = xx// SMTP username
+$mail->Password = 'xx';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
